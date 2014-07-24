@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkflowInfo>
+  <Actions>
+    <Action
+      Name="Access cross sub sites list"
+      ClassName="DeltaCustomActions.CustomSubsSiteAction"
+      Assembly="CustomSubsSiteAction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b39d034473a4665a"
+      AppliesTo="all"
+      Category="Cross sub site list"
+      >
+      <RuleDesigner
+        Sentence="Add current list to DepartMentName= %1 Task list item"
+        >
+        <FieldBind Field="DepartMents" DesignerType="TextArea" Id="1"></FieldBind>
+      </RuleDesigner>
+      <Parameters>
+        <Parameter Name="__Context" Type="Microsoft.SharePoint.WorkflowActions.WorkflowContext" Direction="In"></Parameter>
+        <Parameter Name="__ListId" Type="System.String, mscorlib" Direction="In"></Parameter>
+        <Parameter Name="__ItemID" Type="System.Int32, mscorlib" Direction="In"></Parameter>
+        <Parameter Name="DepartMents" Type="System.String, mscorlib" Direction="In"></Parameter>
+        <Parameter Name="__ActivationProperties" Type="Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties, Microsoft.SharePoint" Direction="Out"></Parameter>
+      </Parameters>
+    </Action>
+  </Actions>
+</WorkflowInfo>

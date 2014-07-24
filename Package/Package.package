@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2d646d8a-f635-4037-b52f-17d7b9f29ac5" solutionId="2d646d8a-f635-4037-b52f-17d7b9f29ac5" resetWebServer="false" name="DeltaCustomActions" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="50c21f15-0db3-4c97-87f7-1dc5a2ab98c6" />
+  </projectItems>
+</package>
